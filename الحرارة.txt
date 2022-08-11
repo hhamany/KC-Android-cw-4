@@ -1,0 +1,21 @@
+public class Main
+{
+	public static void main(String[] args) {
+    
+
+ temperature(55);
+	}
+	
+    public static void temperature(int temp){
+  
+     int temperature = 23;
+     
+     System.out.println("Hot");
+  
+
+}
+
+
+
+    
+ }

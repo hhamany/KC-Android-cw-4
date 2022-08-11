@@ -1,0 +1,8 @@
+	public static int degrees(int degree1 , int degree2){
+	    
+	   return degree1 + degree2;
+	    
+	}
+		    
+	
+	}

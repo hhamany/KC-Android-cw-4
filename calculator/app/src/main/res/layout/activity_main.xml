@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/math222"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/calculator"
+        android:layout_width="170dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="500dp"
+        android:fontFamily="sans-serif-black"
+        android:padding="8dp"
+        android:text="@string/calculator"
+        android:textColor="#7d6c62"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="270dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:hint="@string/first_number"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:textColorHint="#795548"
+        android:textSize="15sp"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="100dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:hint="@string/second_number"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:textColorHint="#795548"
+        android:textSize="15sp"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="120dp"
+        android:backgroundTint="#aa8666"
+        android:text="@string/plus"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/multi"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="120dp"
+        android:backgroundTint="#c17d57"
+        android:text="@string/minus"
+        android:textSize="60sp" />
+
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="150dp"
+        android:backgroundTint="#aa8555"
+        android:text="@string/minuss"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/divi"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="150dp"
+        android:backgroundTint="#dea176"
+        android:text="@string/divi"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:background="#dea176"
+        android:fontFamily="sans-serif-black"
+        android:padding="7dp"
+        android:text="Total"
+        android:textColor="#544541"
+        android:textSize="40sp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

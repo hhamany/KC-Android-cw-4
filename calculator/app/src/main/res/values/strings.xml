@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application11</string>
+    <string name="calculator">calculator</string>
+    <string name="background">Background</string>
+    <string name="first_number">first number</string>
+    <string name="second_number">second_number</string>
+    <string name="todo2">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="plus">+</string>
+    <string name="minus">×</string>
+    <string name="minuss">-</string>
+    <string name="divi">÷</string>
+</resources>
